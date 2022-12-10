@@ -1,2 +1,2 @@
-currently at: https://java-programming.mooc.fi/part-1/5-calculating
+Currently at:  https://java-programming.mooc.fi/part-2/1-problems-and-patterns
 
