@@ -6,6 +6,19 @@ public class OddOrEven {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Give a number:");
+
+        int num = Integer.valueOf(scan.nextLine());
+
+        String oddEven;
+
+        if (num % 2 == 0) {
+            oddEven = "even";
+        } else {
+            oddEven = "odd";
+        }
+
+        System.out.println("Number " + num + " is " + oddEven);
         // Write your program here 
         // HINT:
         // You can find out if a number is even or odd easily using the modulo operator %
