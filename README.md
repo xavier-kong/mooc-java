@@ -1,2 +1,2 @@
-Currently at:  https://java-programming.mooc.fi/part-3/3-arrays
+Currently at:  https://java-programming.mooc.fi/part-4/1-introduction-to-object-oriented-programming
 
