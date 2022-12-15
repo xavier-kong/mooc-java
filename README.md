@@ -1,2 +1,1 @@
-Currently at: https://java-programming.mooc.fi/part-4/3-files-and-reading-data
-
+Currently at: https://java-programming.mooc.fi/part-5/4-objects-and-references (exercise comparing apartments);
