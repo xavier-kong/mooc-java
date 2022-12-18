@@ -1,1 +1,1 @@
-Currently at: https://java-programming.mooc.fi/part-7/2-algorithms;
+Currently at: https://java-programming.mooc.fi/part-8/1-recap;
