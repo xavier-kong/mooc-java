@@ -1,1 +1,1 @@
-Currently at: https://java-programming.mooc.fi/part-9/1-inheritance (Warehousing);
+Currently at: https://java-programming.mooc.fi/part-9/2-interface;
