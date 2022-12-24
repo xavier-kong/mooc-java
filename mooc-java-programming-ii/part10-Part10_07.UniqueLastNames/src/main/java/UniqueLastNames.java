@@ -1,6 +1,8 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class UniqueLastNames {
 
@@ -32,5 +34,20 @@ public class UniqueLastNames {
         }
 
         // Implement the printing of the unique last names in alphabetical order here:
+        //
+
+        ArrayList<String> lastNames = persons.stream()
+            .map(s -> s.getLastName())
+            .collect(Collectors.toCollection(ArrayList::new));
+
+        ArrayList<String> uniqueLastNames = new ArrayList<>(new HashSet<>(lastNames));
+
+        System.out.println("Unique last names in alphabetical order:");
+
+        uniqueLastNames.stream()
+            .sorted()
+            .forEach(s -> System.out.println(s));
+
+
     }
 }

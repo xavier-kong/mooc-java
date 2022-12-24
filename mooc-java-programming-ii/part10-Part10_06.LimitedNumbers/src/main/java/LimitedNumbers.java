@@ -6,6 +6,21 @@ public class LimitedNumbers {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+         ArrayList<Integer> inputs = new ArrayList<>();
+
+        while (true) {
+            Integer input = Integer.valueOf(scanner.nextLine());
+
+            if (input < 0) {
+                break;
+            }
+
+            inputs.add(input);
+        }
+
+        inputs.stream()
+            .filter(s -> s >= 1 && s <= 5)
+            .forEach(s -> System.out.println(s));
 
     }
 }
